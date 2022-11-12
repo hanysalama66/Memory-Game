@@ -1,146 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>memory game</title>
-    <link rel="stylesheet" href="css/master.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/nourmaliza.txt" />
-  </head>
 
-  <body>
-    <div class="control-buttons">
-      <span>start Game</span>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>memory game</title>
+  <link rel="stylesheet" href="css/master.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/nourmaliza.txt" />
+</head>
+
+<body>
+  <div class="control-buttons">
+    <span>start Game</span>
+  </div>
+  <div class="info-container">
+    <div class="name">
+      Hello: <span></span>
     </div>
-    <div class="div info-container">
-      <div class="name"><span>Hello :</span></div>
-       
-      <div class="tries">Woring Tries: <span>0</span></div>
+    <div class="tries">
+      Woring Tries: <span>0</span>
     </div>
-    <div class="memory-game-blocks ">
-      <div class="game-block" data-technology="angular">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-angular"></i>
-        </div>
+  </div>
+  <div class="memory-game-blocks">
+    <div class="game-block" data-technology="angular">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-angular"></i>
       </div>
-      <div class="game-block">
-        <div  class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-angular"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="angular">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-angular"></i>
       </div>
-      <div class="game-block" data-technology="vuejs">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-vuejs"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="vuejs">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-vuejs"></i>
       </div>
-      <div class="game-block">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-vuejs"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="vuejs">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-vuejs"></i>
       </div>
-      <div class="game-block" data-technology="css3">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-css3"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="css3">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-css3"></i>
       </div>
-      <div class="game-block">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-css3"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="css3">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-css3"></i>
       </div>
-      <div class="game-block" data-technology="github">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-github"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="github">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-github"></i>
       </div>
-      <div class="game-block">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-github"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="github">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-github"></i>
       </div>
-      <div class="game-block " data-technology="gulp ms-11">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-gulp "></i>
-        </div>
+    </div>
+    <div class="game-block " data-technology="gulp ms-11">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-gulp "></i>
       </div>
-      <div class="game-block">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-gulp"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="gulp ms-11">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-gulp"></i>
       </div>
-      <div class="game-block" data-technology="html5">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-html5"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="html5">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-html5"></i>
       </div>
-      <div class="game-block">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-html5"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="html5">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-html5"></i>
       </div>
-      <div class="game-block" data-technology="python">
-        <div class="face front"></div>
-        <div class="face back">
-         <i class="fa-brands fa-d-and-d"></i>
-        </div>
-      </div>
-      <div class="game-block">
-        <div class="face front"></div>
-        <div class="face back">
-       <i class="fa-brands fa-d-and-d"></i>
-        </div>
-      </div>
-      <div class="game-block" data-technology="facebook">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-facebook"></i>
-        </div>
-      </div>
-      <div class="game-block">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-facebook"></i>
-        </div>
-      </div>
-      <div class="game-block" data-technology="react">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-react"></i>
-        </div>
-      </div>
-      <div class="game-block">
-        <div class="face front"></div>
-        <div class="face back">
-          <i class="fa-brands fa-react"></i>
-        </div>
-      </div>
+    </div>
     <div class="game-block" data-technology="python">
-        <div class="face front"></div>
-        <div class="face back">
-         <i class="fa-brands fa-d-and-d"></i>
-        </div>
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-d-and-d"></i>
       </div>
-      <div class="game-block">
-        <div class="face front"></div>
-        <div class="face back">
-       <i class="fa-brands fa-d-and-d"></i>
-        </div>
+    </div>
+    <div class="game-block" data-technology="python">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-d-and-d"></i>
       </div>
+    </div>
+    <!-- <div class="game-block" data-technology="facebook">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-facebook"></i>
       </div>
-    <script src="./js/power.js"></script>
-  </body>
+    </div>
+    <div class="game-block" data-technology="facebook">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </div> -->
+    <div class="game-block" data-technology="react">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-react"></i>
+      </div>
+    </div>
+    <div class="game-block" data-technology="react">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-react"></i>
+      </div>
+    </div>
+    <!-- <div class="game-block" data-technology="python">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-d-and-d"></i>
+      </div>
+    </div>
+    <div class="game-block" data-technology="python">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-d-and-d"></i>
+      </div>
+    </div> -->
+    <div class="countdawn">
+      
+    </div>
+  </div>
+  <script src="./js/power.js"></script>
+</body>
+
 </html>
